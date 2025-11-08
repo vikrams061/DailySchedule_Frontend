@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# DailySchedule_Frontend
-=======
-# LY Timetable Frontend (Light touch)
+LY Timetable Frontend
 
 Stack recommendation and scaffold
 
@@ -49,4 +46,4 @@ Notes
 
 - If you prefer Chakra UI instead of MUI, tell me and I'll swap the scaffold.
 - I kept the scaffold minimal so we can iterate on the timetable design quickly.
->>>>>>> ba7363d (chore: initial prototype - OCR timetable parser)
+
