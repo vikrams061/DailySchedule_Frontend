@@ -17,13 +17,14 @@ export const TimeColumn: React.FC<TimeColumnProps> = ({
 }) => {
   return (
     <Box sx={{ pr: 1 }}>
+      {/* header spacing */}
       <Box sx={{ height: 32 }} />
       {Array.from({ length: totalSlots }).map((_, i) => (
         <Box 
           key={`time-slot-${dayStart + i * slotMinutes}`} 
-          sx={{ height: slotHeight, display: 'flex', alignItems: 'start' }}
+          sx={{ height: slotHeight, display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end', pr: 1 }}
         >
-          <Typography variant="caption" color="text.secondary">
+          <Typography variant="caption" color="text.secondary" sx={{ whiteSpace: 'nowrap' }}>
             {formatTime(dayStart + i * slotMinutes)}
           </Typography>
         </Box>
