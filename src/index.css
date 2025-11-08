@@ -1,0 +1,10 @@
+:root{
+  --app-max-width: 1200px;
+}
+html,body,#root{
+  height:100%;
+}
+body{
+  margin:0;
+  font-family: Inter, Roboto, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial;
+}

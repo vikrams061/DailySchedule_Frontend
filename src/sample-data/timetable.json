@@ -1,0 +1,43 @@
+[
+  {
+    "id": "evt-1",
+    "day": 0,
+    "start": "08:30",
+    "end": "10:00",
+    "title": "Mathematics - Algebra",
+    "confidence": 0.98,
+    "originalCropUrl": "https://placehold.co/200x100.png?text=math"
+  },
+  {
+    "id": "evt-2",
+    "day": 0,
+    "start": "10:15",
+    "end": "11:00",
+    "title": "Computer Science - Lab",
+    "confidence": 0.88
+  },
+  {
+    "id": "evt-3",
+    "day": 1,
+    "start": "09:00",
+    "end": "10:30",
+    "title": "Physics - Mechanics",
+    "confidence": 0.75
+  },
+  {
+    "id": "evt-4",
+    "day": 2,
+    "start": "13:30",
+    "end": "15:00",
+    "title": "History - Medieval",
+    "confidence": 0.62
+  },
+  {
+    "id": "evt-5",
+    "day": 4,
+    "start": "11:00",
+    "end": "12:00",
+    "title": "Chemistry - Lab",
+    "confidence": 0.91
+  }
+]
