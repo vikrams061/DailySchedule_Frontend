@@ -28,10 +28,10 @@ export const DayRow: React.FC<DayRowProps> = ({
   const dayEvents = events.filter((e) => e.ev.day === dayIdx);
 
   return (
-    <Box sx={{ display: 'flex', height: 40 }}>
+    <Box sx={{ display: 'flex', height: 60 }}>
       <Box
         sx={{
-          width: 80,
+          width: 90,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -46,7 +46,7 @@ export const DayRow: React.FC<DayRowProps> = ({
         sx={{
           display: 'grid',
           gridTemplateColumns: `repeat(${totalSlots}, ${slotWidth}px)`,
-          width: '100%'
+          width: '70%'
         }}
       >
         {dayEvents.map(({ ev, colStart, colSpan }) => (

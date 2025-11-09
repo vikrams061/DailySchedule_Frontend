@@ -37,13 +37,5 @@ npm install
 npm run dev
 ```
 
-Next steps
 
-- Install dependencies (run `npm install`).
-- I can add base components (TimetableGrid, Uploader, OCRReviewModal) and wire providers (`QueryClientProvider`, MUI `ThemeProvider`) next.
-
-Notes
-
-- If you prefer Chakra UI instead of MUI, tell me and I'll swap the scaffold.
-- I kept the scaffold minimal so we can iterate on the timetable design quickly.
 
